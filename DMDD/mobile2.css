@@ -4,14 +4,13 @@ body {
 
 
 h1, h2 {
-font-family: 'Open Sans', sans-serif;
+  font-family: 'Bitter', serif;
   font-size: 2rem;
-
 }
 
 p {
-
-font-family: 'Bitter', serif;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
 }
 
 
