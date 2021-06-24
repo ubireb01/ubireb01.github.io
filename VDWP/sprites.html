@@ -18,15 +18,28 @@ li a {
 }
 
 li#twitter a {
-background-image: src('sprites_social.png');
+background-image: url('sprites_social.png');
 width: 32px;
 height: 32px;
 text-indent: -1000px;
-border: 1px solid blue;
 }
 
+li#twitter a:hover {
+  background-image: url('sprites_social.png');
+  width: 32px;
+  height: 32px;
+  background-position: 0px -32px;
 
+}
 
+li#facebook a {
+  background-image: url('sprites_social.png');
+  background-position: -32px 0px;
+  width: 32px;
+  height: 32px;
+  text-indent: -1000px;
+
+}
 
 </style>
 </head>
