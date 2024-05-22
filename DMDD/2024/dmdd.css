@@ -1,9 +1,26 @@
 body {
-    background-color: cyan;
+    background-color: #fed100;
+    
+    font-family: "Bitter", serif;
+  font-optical-sizing: auto;
+  font-weight: 450;
+  font-style: normal;
+    
 }
 
 
-/* Style the navigation menu */
+
+
+.bitter-<uniquifier> {
+  font-family: "Bitter", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+
+ /* Style the navigation menu */
 .topnav {
   overflow: hidden;
   background-color: #333;
@@ -43,15 +60,4 @@ body {
 .active {
   background-color: #04AA6D;
   color: white;
-}
-Step 3) Add JavaScript:
-Example
-/* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
-function myFunction() {
-  var x = document.getElementById("myLinks");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
-}
+} 

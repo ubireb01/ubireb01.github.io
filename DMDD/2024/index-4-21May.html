@@ -8,16 +8,39 @@
     <link rel="stylesheet" media="screen and (min-width: 600px)" href="dmdd.css">
     <link rel="stylesheet" media="screen and (max-width: 600px)" href="mobile.css">
 
-
+    
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+    
 </head>
 
 <body>
 
 
+<!-- Top Navigation Menu -->
+<div class="topnav">
+  <a href="#home" class="active">&nbsp;</a>
+  <!-- Navigation links (hidden by default) -->
+  <div id="myLinks">
+    <a href="#news">News</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+  </div>
+  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+    
+    <p>&nbsp;</p>
     
     
     <!-- The next line will add an image to your page -->
-    <img src="sunflowers.jpg" alt="sunflower" width="200">
+    <img src="sunflowers.jpg"  alt="sunflower" width="200">
 
 
     <!-- Heading 1, your most important heading, starts here -->
@@ -39,7 +62,16 @@
 
     </p>
 
-
+    
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/rmM0kRf8Dbk?si=GCcImg2HsWL-rJwy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+    
+    <p></p>
+    
+    
+<iframe width="49%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/259060239&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/dorothy-ashby" title="Dorothy Ashby" target="_blank" style="color: #cccccc; text-decoration: none;">Dorothy Ashby</a> · <a href="https://soundcloud.com/dorothy-ashby/come-live-with-me" title="Come Live With Me" target="_blank" style="color: #cccccc; text-decoration: none;">Come Live With Me</a></div>
+    
+    
 
 <a href="https://www.youtube.com/watch?v=rmM0kRf8Dbk"></a>
 
@@ -57,6 +89,18 @@
     </ul>
 </div>
 
-
+<script>
+    /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+} 
+    </script>
+    
+    
 </body>
 </html>
