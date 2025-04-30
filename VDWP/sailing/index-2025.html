@@ -12,27 +12,27 @@
 		<link type="text/css" rel="stylesheet" href="style.css">
 
 <style type="text/css">
-		
-	@keyframes sailing {
-		from {
-			left: 0%;
-		}
-		to {
-			left: 100%;
-		}
-	}
+	
 
+	@keyframes boat-sailing {
+		from {left: 0%;
+		top: -100px;
+		}
+		to {left: 100%;  
+         top:100px;
+}
+			
+	} 
+		
 	
 	.boat {
+		animation-name: boat-sailing;
+		animation-duration: 10s;
+		animation-iteration-count: infinite;
 		
-		animation-name: sailing;
-		animation-iteration-count: 1;
-		animation-duration: 5s;
-		animation-timing-function: ease-in;
 	}
 	
 	
-		
 		</style>
 
 
