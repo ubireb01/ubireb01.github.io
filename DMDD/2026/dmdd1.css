@@ -1,3 +1,45 @@
 body {
     background-color: #6799DF;
 }
+
+
+
+
+p {
+  font-family: "Bitter", serif;
+  font-optical-sizing: auto;
+	font-size: 10px;
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+h1 {
+  font-family: "Bitter", serif;
+  font-optical-sizing: auto;
+		font-size: 40px;
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+
+h2 {
+  font-family: "Bitter", serif;
+  font-optical-sizing: auto;
+		font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+
+
+.bree {
+  font-family: "Bree Serif", serif;
+  font-weight: 400;
+	font-size: 40px;
+  font-style: normal;
+}
+
+
